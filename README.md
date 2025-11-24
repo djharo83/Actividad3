@@ -1,2 +1,2 @@
 # Actividad3
-Maquetacion de una tarjeta de producto
+Maquetación de una tarjeta de producto
