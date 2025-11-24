@@ -1,0 +1,35 @@
+/* style for header */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+/* style for unordered list in header */
+header ul {
+  list-style-type: square;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+/* style for list items */
+header ul li {
+  display: inline;
+  margin: 0 15px;
+  font-weight: bold;
+}
+/* style for body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #ffffff;
+  color: #333333;
+}
+/* style for h1 */
+h1 {
+  color: #007acc;
+  text-align: center;
+}
+/* style for paragraphs */
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
