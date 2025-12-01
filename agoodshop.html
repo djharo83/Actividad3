@@ -7,29 +7,29 @@
     <link rel="stylesheet" href="css/agoodshop.css">
 </head>
 <body>
-    <header class="header">
-        <nav id = navigator>
-            <div class = logo>
+    <header id="header-principal">
+        <nav id = "header-navigator">
+            <div class = header-logo>
                 <h2>agoodshop</h2>
             </div>
-            <div class="links">
+            <div class="header-links">
                 <ul>
-                    <li><a class="none" href="#">Tienda</a></li>
-                    <li><a class="none" href="#">Accesorios</a></li>
-                    <li><a class="none" href="#">Soporte</a></li>
-                    <li><a class="none" href="#">Contactar</a></li>
+                    <li><a class="header-none" href="#">Tienda</a></li>
+                    <li><a class="header-none" href="#">Accesorios</a></li>
+                    <li><a class="header-none" href="#">Soporte</a></li>
+                    <li><a class="header-none" href="#">Contactar</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <img src="" alt="iFhon">
+        <section id="article">
+            <div class="image">
+                <img src="imagenes/ifhon.png" alt="iFhon">
             </div>
-            <div>
-                <p>OFERTA</p>
-                <h2>Compra un iFhon 13 Pro </h2>
+            <div class="offer-article">
+                <p class="offer">OFERTA</p>
+                <h1>Compra un iFhon 13 Pro </h1>
                 <p>
                     iFhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más
                     avanzado. El chip que hace morder el polvo a la competencia. Un
@@ -38,8 +38,10 @@
                     6,1 pulgadas. Diseño robusto con bordes planos y resistente al
                     agua.
                 </p>
-                <p>938.99€</p>
-                <button>Comprar</button>
+                <div id="price-btn">
+                    <p class="price">938.99€</p>
+                    <button class="btn-article">Comprar</button>
+                </div>
             </div>
         </section>
 
@@ -51,7 +53,7 @@
             <article class="charger">
                 <img src="" alt="Cargador">
                 <h3>Cargador</h3>
-                <p>Precio</p>
+                <p class = "price">Precio</p>
                 <p>El adaptador de corriente USB-C de 20 W es muy rápido y
                    eficiente, así que va de perlas para cargar tus dispositivos en
                    cualquier lugar.
@@ -109,6 +111,6 @@
         </form>
         </section>
     </main>
-    <footer class="footer"> @ agoodshop</footer>
+    <footer id="footer"> @ agoodshop</footer>
 </body>
 </html>    

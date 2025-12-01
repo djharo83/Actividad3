@@ -6,11 +6,12 @@ body{
     margin: 0;
 }
 
-.header{
+/*Estilos para cabecera*/
+#header-principal{
     border-bottom: 2px solid #ddd;
 }
 
-#navigator{
+#header-navigator{
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -18,26 +19,26 @@ body{
     align-items: center;
 }
 
-.logo{
+.header-logo{
     margin-left: 60px;
 }
 
-.links{
+.header-links{
     margin-right: 60px;
 }
 
-.links ul{
+.header-links ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 
 }
 
-.links ul li{
+.header-links ul li{
     padding: 10px;
 }
 
-.none{
+.header-none{
     display: inline-block;
     color: #333;
     font-size: 20px;
@@ -45,7 +46,7 @@ body{
     padding: 8px 10px;
 }
 
-.none:hover{
+.header-none:hover{
     font-weight: bold;
     cursor: pointer;
     background-color: white;
@@ -53,7 +54,58 @@ body{
     border-radius: 8px;
 }
 
-.footer{
+/*Estilos para seccion articulo*/
+#article{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:40px;
+}
+
+.btn-article{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-article:hover{
+    font-weight: bold;
+    background-color: blue;
+}
+
+.image{
+    margin-left: 60px;
+}
+
+.offer{
+    color: rgba(255, 0, 0, 0.959);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#price-btn{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.offer-article{
+    padding-right: 350px;
+}
+
+#footer{
     border-top: 2px solid #ddd;
     font-size: 20px;
     height: 60px;
