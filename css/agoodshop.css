@@ -7,11 +7,8 @@ body{
 }
 
 /*Estilos para cabecera*/
-#header-principal{
+#header{
     border-bottom: 2px solid #ddd;
-}
-
-#header-navigator{
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -56,7 +53,7 @@ body{
 
 /*Estilos para seccion articulo*/
 #article{
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,6 +100,70 @@ body{
 
 .offer-article{
     padding-right: 350px;
+}
+
+/*Estilos para seccion lottery*/
+#lottery{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    background-color: rgb(232, 247, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+}
+
+.lottery-description{
+    margin-left: 60px;
+}
+
+
+.lottery-head{
+    font-size: 60px;
+}
+
+.lottery-paragraph{
+    font-size: 25px;
+}
+
+.lottery-form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.lottery-form label{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.lottery-form input{
+    margin-top: 8px;
+    border-radius: 5px;
+    border: rgb(232, 247, 247);
+    height: 30px;
+    width: 200px;
+}
+
+.lottery-btn{
+    margin-top: 25px;
+    
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.lottery-btn:hover{
+    font-weight: bold;
+    background-color: blue;
 }
 
 #footer{

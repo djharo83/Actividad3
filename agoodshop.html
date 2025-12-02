@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="css/agoodshop.css">
 </head>
 <body>
-    <header id="header-principal">
-        <nav id = "header-navigator">
-            <div class = header-logo>
-                <h2>agoodshop</h2>
-            </div>
+    <header id="header">
+        <div class = header-logo>
+            <h2>agoodshop</h2>
+        </div>
+        <nav>
             <div class="header-links">
                 <ul>
                     <li><a class="header-none" href="#">Tienda</a></li>
@@ -46,9 +46,9 @@
         </section>
 
         <section class="accessories">
-        <header> 
-            <h2>Accesorios recomendados</h2>
-        </header>
+        <div> 
+            <h1>Accesorios recomendados</h1>
+        </div>
         <div class = "grid-accessories">
             <article class="charger">
                 <img src="" alt="Cargador">
@@ -91,23 +91,21 @@
             </article>
         </div>
         </section>
-        <section>
-        <header class="header-lottery"> 
-            <h2>Participa en el sorteo de un iFhone 13</h2>
-        </header>
-        <div class="lottery">
-            <p>Este verano, ¡venimos cargados de premios! Así que antes de irte
+        <section id="lottery">
+        <div class ="lottery-description">
+            <h1 class="lottery-head">Participa en el sorteo de un iFhone 13</h1>
+            <p class="lottery-paragraph">Este verano, ¡venimos cargados de premios! Así que antes de irte
             de vacaciones, ¡participa en nuestro sorteo! y podrás llevarte un
             regalo increíble como un nuevo iFhone 13
             </p>
-            <p>Rellena este formulario para ser uno de los afortunados.</p>
+            <p class ="lottery-paragraph">Rellena este formulario para ser uno de los afortunados.</p>
         </div>
-        <form class="form", action="", method="">
+        <form class="lottery-form", action="", method="POST">
             <label for="id-name">Nombre</label>
-            <input type="text" name="name" id="id-name">
+            <input type="text" name="name" id="id-name", placeholder="Jhon">
             <label for="id-email">Email</label>
-            <input type="email" name="email" id="id-email">
-            <button type="submit">Enviar</button>
+            <input type="email" name="email" id="id-email", placeholder="jhon@doe.com">
+            <button class="lottery-btn" type="submit">Enviar</button>
         </form>
         </section>
     </main>
