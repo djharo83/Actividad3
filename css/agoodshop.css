@@ -82,6 +82,7 @@ body{
 }
 
 .offer{
+    margin-bottom: 0px;
     color: rgba(255, 0, 0, 0.959);
     font-size: 15px;
     font-weight: bold;
@@ -100,6 +101,10 @@ body{
 
 .offer-article{
     padding-right: 350px;
+}
+
+.offer-article h1{
+    margin-top: 0px;
 }
 
 /*Etilos para seccion accesorios*/
