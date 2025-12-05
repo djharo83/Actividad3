@@ -52,7 +52,7 @@ body{
 }
 
 /*Estilos para seccion articulo*/
-#article{
+#article-section{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -60,7 +60,39 @@ body{
     gap:40px;
 }
 
-.btn-article{
+.article-image{
+    margin-left: 60px;
+}
+
+.article-offer{
+    padding-right: 350px;
+}
+
+.article-offer-offer{
+    margin-bottom: 0px;
+    color: rgba(255, 0, 0, 0.959);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.article-offer-title{
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+#article-price-btn{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.artircle-price{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.article-btn-buy{
     background-color: rgb(0, 110, 255);
     color: white;
     font-size: 15px;
@@ -72,61 +104,86 @@ body{
     text-align: center;
 }
 
-.btn-article:hover{
+.article-btn-buy:hover{
     font-weight: bold;
     background-color: blue;
 }
 
-.image{
-    margin-left: 60px;
+.article-features{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-area: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
-.offer{
-    margin-bottom: 0px;
-    color: rgba(255, 0, 0, 0.959);
-    font-size: 15px;
-    font-weight: bold;
+
+.article-features-item{
+    text-align: center;
 }
 
-.price{
-    font-size: 30px;
-    font-weight: bold;
+.article-features-item i {
+    font-size: 30px; 
+    display: block; 
+    margin: 0 auto 5px auto;
 }
 
-#price-btn{
-    display: flex;
-    gap:20px;
-    align-items: center;
+.icon-send{
+    color:green
 }
 
-.offer-article{
-    padding-right: 350px;
+.icon-return{
+    color: orange;
 }
 
-.offer-article h1{
-    margin-top: 0px;
+.icon-term{
+    color: blue;
 }
+
+.article-features-item-description{
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+ }
 
 /*Etilos para seccion accesorios*/
 #accessories-head{
     margin-top: 20px;
     margin-left: 60px;
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium'
 }
 
 #accessories{
     margin-left: 60px;
     margin-right: 60px;
     display: grid;
-    align-items: start;
+    align-items: stretch;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     margin-bottom: 30px;
 }
 
+.accessories-article-card{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    overflow: hidden;
+    
+    box-shadow: 2px, 2px, 8px,rgb(0, 0, 0, 0.1);
+}
+
 .accessories-name{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium'
+}
+
+.accessories-description{
+    font-family: Arial
 }
 
 #accessories-btn-offer{
